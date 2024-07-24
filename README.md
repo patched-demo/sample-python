@@ -1,35 +1,17 @@
-![Sign](https://i.imgur.com/bovh598.png)
+![image](https://github.com/user-attachments/assets/105a55d3-cf34-415b-9a6b-ede23b2a69f9)
 
-Damn Small Vulnerable Web [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-Unlicense-red.svg)](https://github.com/stamparm/DSVW/blob/master/LICENSE)
+A sample python web app, forked from DSVW. Has a few vulnerabilities, and is in need of some documentation.
+
 =========
-
-**Damn Small Vulnerable Web** (DSVW) is a deliberately vulnerable web application written in under 100 lines of code, created for educational purposes. It supports majority of (most popular) web application vulnerabilities together with appropriate attacks.
-
-![XSS](http://i.imgur.com/BoSOgJs.png)
 
 Quick start
 ----
 
-Run the following command:
-```
-$ python3 dsvw.py 
-Damn Small Vulnerable Web (DSVW) < 100 LoC (Lines of Code) #v0.2a
- by: Miroslav Stampar (@stamparm)
+Click the Pull Requests tab to see sample PRs created by Patched.
 
-[i] running HTTP server at 'http://127.0.0.1:65412'...
-```
+You can also fork this repository, and run the AutoFix and GenerateDocString patchflows from Patched app to see how patch automates workflows like vulnerability fixing and documentation.
 
-and navigate your browser to http://127.0.0.1:65412/:
-
-![DSVW](http://i.imgur.com/9nG4mwu.png)
-
-Requirements
+Questions?
 ----
 
-Python (**3.x**) is required for running this program. Items *XML External Entity (local)*, *XML External Entity (remote)* and *Blind XPath Injection (boolean)* require installation of `python-lxml` (e.g. `apt-get install python-lxml`). Otherwise, those will be disabled.
-
-To install lxml via pip, run the following command:
-
-```
-pip install -r requirements.txt
-```
+Join our discord channel: [![Discord](https://dcbadge.limes.pink/api/server/XDxA3mJyhE?style=flat&theme=clean-inverted)](https://discord.gg/XDxA3mJyhE)
