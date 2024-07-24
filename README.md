@@ -2,8 +2,6 @@
 
 A sample python web app, forked from DSVW. Has a few vulnerabilities, and is in need of some documentation.
 
-=========
-
 Quick start
 ----
 
