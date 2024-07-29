@@ -1,15 +1,45 @@
-![image](https://github.com/user-attachments/assets/105a55d3-cf34-415b-9a6b-ede23b2a69f9)
+# Documenting Files in the Repository
 
-A sample python web app, forked from DSVW. Has a few vulnerabilities, and is in need of some documentation.
+## File: Dockerfile
 
-Quick start
-----
+### Inputs
+- Builds a Docker container for a Python web app
+- Includes necessary dependencies like libxml2-dev, libxslt-dev, etc.
+- Exposes port 65412
+- Sets up the app to be run as a specific user
+- Specifies a command to run the web app
 
-Click the Pull Requests tab to see sample PRs created by Patched.
+## File: LICENSE
 
-You can also fork this repository, and run the AutoFix and GenerateDocString patchflows from Patched app to see how patch automates workflows like vulnerability fixing and documentation.
+### Contents
+- Public domain disclaimer and terms for using the software
+- Information on warranty and liabilities
+- Links to official website
 
-Questions?
-----
+## File: README.md
 
-Join our discord channel: [![Discord](https://dcbadge.limes.pink/api/server/XDxA3mJyhE?style=flat&theme=clean-inverted)](https://discord.gg/XDxA3mJyhE)
+### Contents
+- Contains an image and introductory text for a Python web app
+- Quick start guide and links to sample PRs
+- Instructions for forking the repository and running specific flows
+- Invitation to join a Discord channel for questions
+
+## File: docker-compose.yml
+
+### Contents
+- Defines Docker Compose configuration for the Python web app container
+- Specifies service name, build context, exposed ports, and restart policy
+
+## File: dsvw.py
+
+### Contents
+- Implements a Python web server with vulnerabilities
+- Includes different types of attacks like SQL Injection, XSS, SSRF, File Inclusion, etc.
+- Handles various HTTP requests, database interactions, and external service calls
+
+## File: requirements.txt
+
+### Contents
+- Lists the required Python library `lxml`
+
+This documentation provides a brief overview of the files in the repository, their purpose, and key contents.
